@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Transition Animation Transformation </title>
+    <style>
+        .card {
+            width: 26vw;
+            align-items: center;
+            margin: 20px auto;
+            padding: 6px;
+            transform: rotate(-5deg);
+        }
+
+        .card:hover {
+            transform: rotate(0deg);
+            animation-timing-function: ease-in;
+
+        }
+
+        .para {
+            width: 25vw;
+            height: 10vh;
+            font-size: large;
+        }
+
+        .box {
+            display: flex;
+            background: radial-gradient(#74d690, #5cbfbb);
+            padding: 10px;
+            padding-right: 10px;
+            border-bottom-left-radius: 13px;
+            border-bottom-right-radius: 13px;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            border: 6px solid white;
+            border-radius: 50%;
+        }
+
+        h3 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sint nostrum corrupti perspiciatis
+            quisquam quos deserunt ut molestiae
+        </div>
+        <div class="box">
+            <img src="pic.jpg" alt="No File Exist">&nbsp; &nbsp;
+            <div>
+                <h3>Jenny Smith</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
